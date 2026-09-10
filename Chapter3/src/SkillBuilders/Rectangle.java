@@ -32,7 +32,7 @@ public class Rectangle
 		System.out.println("The length is: " + length);
 		System.out.print("The width is: " + width);
 	
-	
+	//stirling
 	}
 
 
