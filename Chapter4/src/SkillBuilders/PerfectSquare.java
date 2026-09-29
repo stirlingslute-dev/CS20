@@ -13,7 +13,7 @@ public class PerfectSquare {
 
     int num = input.nextInt();
 
-//
+
 
     if (num < 0) {
 
