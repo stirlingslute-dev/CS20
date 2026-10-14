@@ -1,6 +1,6 @@
 /*
 
-Program: Change.java          Last Date of this Revision: September 30, 2019
+Program: Eggs.java          Last Date of this Revision: September 30, 2019
 
 Purpose: Create an Eggs application that prompts the user for the number of eggs.
 Author: Your Name, Stirling

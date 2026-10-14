@@ -1,6 +1,6 @@
 /*
 
-Program: Change.java          Last Date of this Revision: September 30, 2019
+Program: Package.java          Last Date of this Revision: September 30, 2019
 
 Purpose: Create a PackageCheck application that prompts the user for the weight of
 a package and its dimensions (length, width, and height), and then displays an appropriate message
