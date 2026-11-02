@@ -1,0 +1,51 @@
+package SkillBuilders;
+
+import java.util.Scanner;
+
+public class TimeCoverter {
+
+	public static void main(String[] args) 
+	{
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter a time: ");
+		double time = input.nextDouble();
+		
+		System.out.println("1. hours to minutes");
+		System.out.println("2. Days to hours");
+		System.out.println("3. Minutes to hours");
+		System.out.println("1. Hours to days");
+		
+		System.out.print("Choose a conversion:");
+		int choice = input.nextInt();
+		
+		if (choice == 1) {
+			System.out.println(hoursToMinutes(time) + "minutes");
+		} else if (choice == 2) {
+			System.out.println(daysToHours(time) + "hours");
+		} else if (choice == 3) {
+			System.out.println(minutesToHours(time) + "hours");
+		} else if (choice == 4) {
+			System.out.println(hoursToDays(time) + "Days");
+		} else {
+			System.out.println("Invalid choice");
+		}
+		input.close();
+	}
+
+	public static double hoursToMinutes(double hours) {
+		return hours * 60;
+	}
+	
+	public static double daysToHours(double days) {
+		return days * 24;	
+	}
+	
+	public static double minutesToHours(double minutes) {
+		return minutes / 60;
+	}
+	
+	public static double hoursToDays(double hours) {
+		return hours / 24;
+	}
+}
