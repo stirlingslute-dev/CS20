@@ -166,6 +166,4 @@ Total in bank: $0.75
 6.Take money out of bank. 
 Enter 0 to quit
 Enter your choice: 
-
-
 */
